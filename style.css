@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  background-color: #fffcc0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+ 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+  padding: 40px;
+}
+ 
+.logo {
+  width: min(380px, 75vw);
+}
+ 
+.tagline {
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  font-style: italic;
+  color: #2a2800;
+  line-height: 1.6;
+}
+ 
+.coming-soon {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1a1800;
+}
